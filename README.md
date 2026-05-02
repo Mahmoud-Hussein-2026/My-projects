@@ -9,7 +9,7 @@ A Java project for a Scientific Calculator with multiple operations.
 
 ## 🔗 Source Code
 You can find the Java code here:
-[Scientific_Calculator.java](https://github.com/Mahmoud-Hussein-2026/My-projects/blob/main/Scientific_Calculator.java)
+[Scientific_Calculator.java](https://github.com/Mahmoud-Hussein-2026/My-projects/blob/main/Scientific_Calculator%20.java)
 
 ## 👤 Author
 Developed by *Mahmoud Hussein*.
