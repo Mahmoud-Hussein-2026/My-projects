@@ -75,55 +75,55 @@ public class Main {
         }
         return (int)result;
   }
-    static void fun(){
-              if(sh.equals("+")){
-                sum(n1,n2);
-          }
-              else if(sh.equals("*")){
-                 mul(n1,n2);
-          }
-              else if(sh.equals("-")){
-                  
-                 men(n1,n2);
-          }
-              else if(sh.equals("/")){
-                  div(n1,n2);
-          }
-            else if(sh.equals("max")){
-                  mx(n1,n2);
-          }
-               else if(sh.equals("min")){
-                  mn(n1,n2);
-          }
-                 else if(sh.equals("pow")){
-                  pow(n1,n2);
-          }
-                  else if(sh.equals("sq")){
-                 sq(n1);
-            }
-                  else if(sh.equals("cb")){
-                 cb(n1);
-            }
-            else if(sh.equals("sin")){
-                 sin(n1);
-            }
-            else if(sh.equals("cos")){
-                 cos(n1);
-            }
-        else if(sh.equals("tan")){
-                 tan(n1);
-            }
-          else if(sh.equals("ln")){
-                 ln(n1);
-            }
-        else if(sh.equals("%")){
-                 mod(n1,n2);
-            }
-        else if(sh.equals("!")){
-                 fact((int)n1);
-    }
-        else {
-    System.out.println(" Operators List : \n" +
+   static void fun() {
+    switch (sh) {
+        case "+":
+            sum(n1, n2);
+            break;
+        case "*":
+            mul(n1, n2);
+            break;
+        case "-":
+            men(n1, n2);
+            break;
+        case "/":
+            div(n1, n2);
+            break;
+        case "max":
+            mx(n1, n2);
+            break;
+        case "min":
+            mn(n1, n2);
+            break;
+        case "pow":
+            pow(n1, n2);
+            break;
+        case "sq":
+            sq(n1); // عملية أحادية
+            break;
+        case "cb":
+            cb(n1); // عملية أحادية
+            break;
+        case "sin":
+            sin(n1); // عملية أحادية
+            break;
+        case "cos":
+            cos(n1);
+            break;
+        case "tan":
+            tan(n1);
+            break;
+        case "ln":
+            ln(n1);
+            break;
+        case "%":
+            mod(n1, n2);
+            break;
+        case "!":
+            fact((int)n1);
+            break;
+        default:   
+             System.out.println(" Operators List : \n" +
 "- '+' : Addition\n" +
 "- '-' : Subtraction\n" +
 "- '*' : Multiplication\n" +
@@ -139,9 +139,10 @@ public class Main {
 "- 'cos' : Cosine\n" +
 "- 'tan' : Tangent\n" +
 "- 'ln' : Natural Log");
-            return;
-}
+
+            break;
     }
+}
 
   /*
   * Calculator application that supports multiple operations
