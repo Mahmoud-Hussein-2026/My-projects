@@ -15,10 +15,9 @@ A console-based application built using *Object-Oriented Programming (OOP)* to m
 * *Source Code:** [Account.java](./Account.java), [BankSystem.java](./BankSystem.java), [Savings.java](./Savings.java)
 
 ---
-
 ### ⚙️ Work in Progress
-> Update (May 2026):** The system has been recently refactored to ensure high data integrity, optimized logic structure, and enhanced security protocols. I am continuously working on adding more features to improve performance.
-> 
+Update (May 2026):** The system has been recently refactored to ensure high data integrity, optimized logic structure, and enhanced security protocols. I am continuously working on adding more features to improve performance.
+ 
 ---
 ## 📈 Future Improvements
 * Implementation of *File Handling* to save data permanently.
