@@ -48,5 +48,5 @@ This repository is a reflection of my learning journey. I am aware that the curr
 ## 👨‍💻 Author
 *Mahmoud Hussain*
 * Informatics Engineering Student at Damascus University.
-* Focused on mastering Java, C++, and building professional technical projects.
-*
+* Focused on mastering Java, C++,OOP, and building professional technical projects.
+
