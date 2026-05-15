@@ -6,9 +6,10 @@ package com.mycompany.banksystem;
 
 /**
  *
- * @author Admin
+ * @author Mahmoud Hussein
  */
 public class Account {
+   // Base class for all bank accounts, handling core attributes like balance and owner info.
     private String typeAccount;
     private String ownerName;
     private int numberAccount;
@@ -38,6 +39,7 @@ public class Account {
         return numberAccount;
     }
     void deposit(double ammount){
+        // Adds a positive amount to the account balance.
         if(ammount>0){
             balance+=ammount;
             System.out.println("Deposit done successfuly .");
@@ -46,17 +48,20 @@ public class Account {
             System.out.println("the ammount must be a positive .");
         }
     }
-        void withdraw(int ammount){
-        if(ammount<=balance){
+        boolean withdraw(double ammount){
+            // Validates if the withdrawal amount is positive and within the available balance
+        if(ammount<balance&&ammount>0){
             balance-=ammount;
             System.out.println("withdraw done successfuly .");
+            return true;
         }
             else{
                 System.out.println("must ammount be smaller or equal than you balance .");
+                return false;
             }
         }
     String printInfo(){
-        return "your type account is : "+typeAccount+"\nyour name is : "+ownerName+"\n your number account is : "+numberAccount+"\n your balance is : "+balance+"\n your password is :"+password;   
+        // Returns a formatted string with all account details.
+        return "your type account is : "+typeAccount+"\nyour name is : "+ownerName+"\n your number account is : "+numberAccount+"\n your balance is : "+balance+"\n\n\n";   
     }
 }
-
