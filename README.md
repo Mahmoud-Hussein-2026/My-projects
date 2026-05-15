@@ -32,7 +32,7 @@ A Java project for a Scientific Calculator capable of performing multiple mathem
 * *Basic Math*: Addition, Subtraction, Multiplication, Division, and Modulo.
 * *Advanced Math*: Power, Factorial, Square, and Cube.
 * *Functions*: Trigonometric functions and Logarithms.
-* *Source Code*: [Scientific_Calculator.java](./Scientific_Calculator.java).
+* *Source Code*: [Scientific_Calculator.java](./Scientific_Calculator%20.java).
 ---
 ### ⚙️ Work in Progress
 This repository is a reflection of my learning journey. I am aware that the current code can be further optimized, and I am actively working on refactoring and adding new features to improve its performance and structure
