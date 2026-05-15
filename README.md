@@ -7,15 +7,19 @@ Welcome to my collection of Informatics Engineering projects, developed during m
 A console-based application built using *Object-Oriented Programming (OOP)* to manage banking operations.
 
 ### 🛠️ Features & Implementation:
-* *Account Management*: Create and manage normal and savings accounts using ArrayList.
-* *OOP Concepts*: Demonstrates Encapsulation, Inheritance, and Constructors.
-* *Transactions*: Supports secure login, deposits, and withdrawals.
-* *Source Code*: [Account.java](./Account.java), [BankSystem.java](./BankSystem.java), [Savings.java](./Savings.java).
----
-### ⚙️ Work in Progress
-This repository is a reflection of my learning journey. I am aware that the current code can be further optimized, and I am actively working on refactoring and adding new features to improve its performance and structure
+* **Account Management:** Create and manage normal and savings accounts with **auto-generated unique IDs**.
+* **OOP Concepts:** Advanced use of Encapsulation, Inheritance, and **Polymorphism (Downcasting)** for interest calculations.
+* **Security & Validation:** Implemented strict constraints for passwords and names (length checks, whitespace filtering using `trim()`).
+* **Transactions:** Secure login, deposits, withdrawals, and **protected peer-to-peer transfers** with self-transfer prevention.
+* **Documentation:** Fully documented source code using **professional Javadoc standards**.
+* **Source Code:** [Account.java](./Account.java), [BankSystem.java](./BankSystem.java), [Savings.java](./Savings.java)
+
 ---
 
+### ⚙️ Work in Progress
+> **Update (May 2026):** The system has been recently refactored to ensure high data integrity, optimized logic structure, and enhanced security protocols. I am continuously working on adding more features to improve performance.
+> 
+---
 ## 🔢 2. Scientific Calculator
 A Java project for a Scientific Calculator capable of performing multiple mathematical operations.
 
