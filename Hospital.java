@@ -5,8 +5,8 @@
 package com.mycompany.myproject;
 import java.util.ArrayList;
 /**
- *
- * @author Admin
+ * Hospital class manages doctors and patients
+ * @author Mahmoud Hussein
  */
 public class Hospital {
     private ArrayList<Doctor> doctors = new ArrayList<>();
