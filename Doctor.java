@@ -5,8 +5,8 @@
 package com.mycompany.myproject;
 
 /**
- *
- * @author Admin
+ * Doctor class represents a doctor with a specialty.
+ * @author Mahmoud Hussein
  */
 public class Doctor extends person {
      private int id;
