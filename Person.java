@@ -5,10 +5,10 @@
 package com.mycompany.myproject;
 
 /**
- *
- * @author Admin
+ * Base class that represents a person in the hospital system.
+ * @author Mahmoud Hussein
  */
-public class person {
+public class Person {
     protected String name;
     protected int age;
     protected int phon;
