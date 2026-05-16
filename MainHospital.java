@@ -7,7 +7,7 @@ package com.mycompany.myproject;
 import java.util.Scanner;
 
 /**
- *
+ * Main class for running the hospital management system.
  * @author Admin
  */
 public class MyProject {
